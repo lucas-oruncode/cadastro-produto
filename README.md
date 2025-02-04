@@ -70,10 +70,9 @@ spring.jpa.hibernate.ddl-auto=update
 #### Exemplo de requisição:
 ```json
 {
-    "id": 1,
+  "id": 1,
   "nome": "Teclado",
-  "marca": "Logitech",
-  "preco": 200.00
+  "marca": "Logitech"
 }
 ```
 
