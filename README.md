@@ -31,21 +31,25 @@ spring.jpa.hibernate.ddl-auto=update
    ```sh
    cd nome-do-repositorio
    ```
-3. Compile e execute a aplicação:
+3. Instalando as dependências:
    ```sh
-   mvn spring-boot:run
+   mvn clean install
+   ```
+4. Subindo a API:
+   ```sh
+   java -jar .\produtos-0.0.1-SNAPSHOT.jar
    ```
 
    ### Executando o Frontend 
-4.  Acesse o diretório frontend:
+5.  Acesse o diretório frontend:
    ```sh
    cd frontend
    ```
-5.  Instalando as dependências:
+6.  Instalando as dependências:
    ```sh
    npm install
    ```
-6.  Execute o comando:
+7.  Execute o comando:
    ```sh
    npm start
    ```
