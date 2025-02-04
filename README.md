@@ -1,4 +1,4 @@
-# API de Produtos
+# Cadastro de Produtos
 
 ## Descrição
 Esta é uma API para gerenciamento de produtos, permitindo o cadastro, listagem, atualização e remoção de produtos. 
@@ -41,9 +41,13 @@ spring.jpa.hibernate.ddl-auto=update
    ```sh
    cd frontend
    ```
-5.  Execute o comando:
+5.  Instalando as dependências:
    ```sh
-   npm run
+   npm install
+   ```
+6.  Execute o comando:
+   ```sh
+   npm start
    ```
 
 ## Endpoints da API
